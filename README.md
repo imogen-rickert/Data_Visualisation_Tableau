@@ -55,4 +55,4 @@ This repository contains this readme file and the GapMinder dataset that I used 
 
 ## Links
 
-[Tableau](https://public.tableau.com/profile/imogen.rickert#!/vizhome/GlobalincomeinequalityandDemocracy/Story1?publish=yes)
+[Tableau](https://public.tableau.com/views/GlobalincomeinequalityandDemocracy/Story1?:language=en-GB&:display_count=y&publish=yes&:origin=viz_share_link)
