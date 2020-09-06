@@ -1,63 +1,58 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Project: Business Intelligence with Tableau
+# Data Visualisation with Tableau
 
-## Overview
+*Imogen Rickert*
 
-The goal of this project is for you to practice what you have learned in the Business Intelligence chapter of this program. For this project, you will choose a data set, explore the data using Tableau, and put together a Story for presentation showing the insights you have derived from the data. You should demonstrate your proficiency using Tableau and the concepts you have learned throughout the chapter. The workbook should be saved to Tableau Public and a link to the workbook should be provided.
+*August 2020 Data Analytics cohort, Berlin, 06.09.20*
+
+## Content
+- [Project Description](#project-description)
+- [Questions & Hypotheses](#questions-hypotheses)
+- [Dataset](#dataset)
+- [Database](#database)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Links](#links)
+
+## Project Description
+
+I wanted to examine wealth inequality and democracy globally. I downloaded the 'GapMinder Income Inequality' dataset in csv form from Kaggle and worked with Tableau to create interesting visualisations. My Tableau story consists of 8 story points with a range of visualisations and annotations. 
 
 
----
+## Questions & Hypotheses
 
-## Technical Requirements
+My work was guided by the following questions:
 
-The technical requirements for this project are as follows:
+1. Which countries in the world have the lowest and highest levels of income inequality?
+2. How has income inequality changed from 2006 to 2016?
+3. Which countries have the lowest and highest levels of democracy?
+4. How has this changed from 2006 to 2016?
 
-* You must construct a Tableau Story consisting of at least 5 story points for the data set you have chosen.
-* You must use Story features such as captions and annotations.
-* You must demonstrate all the concepts we covered in the chapter (sorting, filtering, different visualizations types, aggregations, etc.).
-* Your Tableau workbook consisting of at least 5 visualizations and 1 Story should be saved to Tableau Public.
-* You should create a Github repo for this project, and your data should be saved to that repo in a folder named data.
-* You should also include a README.md file that describes the steps you took, your thought process as you built your visualizations and Story in Tableau, and a link to your workbook on Tableau Public.
+As I began to work with my data, I found some interesting trends that I wanted to explore further. 
 
-## Necessary Deliverables
+Firstly, I noticed that while income inequality is very high in the Americas, it has been decreasing quite substantially from 2006 to 2016. I looked closer at the inequality levels in countries in the Americas and made further visualisations and notes on key findings. 
 
-The following deliverables should be pushed to your Github repo for this chapter.
+Secondly, I noticed that while Europe has overall a high score for democracy, it appeared to have been decreasing slightly from 2006 to 2016. I investigated further and found significant regional differences, which I showed with further visualisations and observations. 
 
-* **A Tableau workbook uploaded to Tableau Public** that contains the visualizations and Story you created from your data set.
-* **An data folder** containing the data set you used for your project.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for constructing visualizations and organizing them into a Story as well as your results, obstacles encountered, lessons learned, and a link to your completed Tableau workbook.
 
-## Suggested Ways to Get Started
+## Dataset
 
-* **Find a data set to process** - a great place to start looking would be [Awesome Public Data Sets](https://github.com/awesomedata/awesome-public-datasets) and [Kaggle Data Sets](https://www.kaggle.com/datasets).
-* **Explore the data set** and come up with a variety of visualizations that you can potentially include in your story.
-* **Break the project down into different steps** - identify the entities/dimensions in your data set, explore them each individually, and then progress to analyzing different combinations of them.
-* **Use the tools in your tool kit** - the concepts and methods you have learned in the business intelligence chapter as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+I utilised the GapMinder Income Inequality' dataset, which I located on Kaggle. Its data comes from Gap Minder, a non-profit based in Sweden. Further details on the dataset can be found on Kaggle: https://www.kaggle.com/psterk/income-inequality?select=combined_final_last_10_years.csv
 
-## Useful Resources
 
-* [Tableau Getting Started Tutorial](https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.html)
-* [Tableau Training Videos](https://www.tableau.com/learn/training)
-* [Tableau Learning Library](https://onlinehelp.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-next.html)
+## Workflow
 
-## Project Feedback + Evaluation
+I first chose my topic and dataset, and then began to examine the dataset. As my dataset was already clean, with clear headings and few missing values, it was not necessary to clean or manipulate the data before starting work.
 
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
+I took an exploratory approach to working with the data. I experimented with different regional groupings of the data to look for interesting findings and searched for any changes over time. I then selected two areas that I wanted to explore further and created 'close ups' to do so. I took notes on interesting findings as a worked, then used them to create concise captions alongside the visualisations. Along the way, I found some explorations did not lead to particularly interesting findings so I decided to exclude them. For example, I found that democracy levels in the Americas had not changed drastically in the time period for which I had data (2006-2016), so I did not include additional visualisations on that. However, I would be interested in exploring this further in a future data with more recent data, considering the rise in populism and political activism in the region in recent years. 
 
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
 
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
+## Organization
 
-* __Total__: Your instructors will give you a total score on your project between:
+This repository contains this readme file and the GapMinder dataset that I used for my visualisations, in csv form. My Tableau story can be found in the link below.
 
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectactions, good job!
-    2|Exceeds expectations, you wonderful creature, you!
 
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
+## Links
+
+[Tableau](https://trello.com/b/HXCiA8Xj/sharks-vs-dragons)
