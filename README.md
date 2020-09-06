@@ -55,4 +55,4 @@ This repository contains this readme file and the GapMinder dataset that I used 
 
 ## Links
 
-[Tableau](https://trello.com/b/HXCiA8Xj/sharks-vs-dragons)
+[Tableau](https://public.tableau.com/profile/imogen.rickert#!/vizhome/GlobalincomeinequalityandDemocracy/Story1?publish=yes)
